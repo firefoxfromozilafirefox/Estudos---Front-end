@@ -1,0 +1,64 @@
+<html>
+<body>
+  <div id="pai">
+<div id="f1"></div>
+<div id="f2"></div>
+<div id="f3"></div>
+  <div id="f4"></div>
+  
+  </div>
+  </html>
+  
+  <css>
+  body{
+  padding:0;
+  margin:0;
+}
+
+#pai{
+  border:5px solid black;
+  width:400px;
+  height:400px;
+  position:relative;
+  padding:0;
+
+}
+
+#f1{
+  width:100px;
+  height:100px;
+  background:red;
+  position:absolute;
+  left:1;
+  top:0;
+  z-index:-1;
+}
+
+#f2{
+  width:100px;
+  height:100px;
+  background:blue;
+  position:absolute;
+  left:0;
+  bottom:0;
+}
+
+#f3{
+  width:100px;
+  height:100px;
+  background:grey;
+  position:absolute;
+  right:0;
+  bottom:0;
+}
+
+#f4{
+  width:100px;
+  height:100px;
+  background:yellow;
+  position:absolute;
+  right:0;
+  top:0;
+}
+
+</css>
